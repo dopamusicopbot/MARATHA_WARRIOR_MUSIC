@@ -9,9 +9,9 @@ from helpers.filters import other_filters2
 async def start(_, message: Message):
     await message.reply_photo("https://telegra.ph/file/632730fba83716c858045.jpg")
     await message.reply_text(
-        f"""**Hey, I'm MUSIC BOT🎵
+        f"""**Hey, I'm ⁪⁬⁮╚»Tᴄ☫Dᴏᴘᴀ«╝Oᴘ♡︎[#5]MUSIC BOT🎵
 
-I can play ꬺᶙȿᶖɕ  in your group's voice CHAT Developed by [TANAJI🤠](https://t.me/XD_PERSON)
+I can play ꬺᶙȿᶖɕ  in your group's voice CHAT Developed by [⁪⁬⁮╚»Tᴄ☫Dᴏᴘᴀ«╝Oᴘ♡︎](https://t.me/nIkLaUsMiKaElSn)
 
 Add me to your group and play music freely😆!**
         """,
@@ -22,14 +22,14 @@ Add me to your group and play music freely😆!**
                         "📠 Source Code 📠", url="https://github.com/tana9373/MARATHA_WARRIOR_MUSIC")
                   ],[
                     InlineKeyboardButton(
-                        "📢 SUPPORT GROUP 📢", url="https://t.me/MARATHIWARRIORS"
+                        "📢 SUPPORT GROUP 📢", url="https://t.me/universal_op_chat"
                     ),
                     InlineKeyboardButton(
                         "🔰 COMMAND 🔰", url="https://t.me/MARATH_IWARRIORS/18"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "GROUP ME LEJAO 😆", url="https://t.me/MARATHA_WARRIOR_MUSIC_1_BOT?startgroup=true"
+                        "GROUP ME LEJAO 😆", url="https://t.me/DOPA_OP_MUSIC_BOT?startgroup=true"
                     )]
             ]
         ),
@@ -38,7 +38,7 @@ Add me to your group and play music freely😆!**
 
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""**#MARATHI_WARRIORS_ON_FIRE**""",
+      await message.reply_text("""**#DOPA_MUSIC_OP_BOLATE**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
